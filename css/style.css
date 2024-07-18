@@ -97,6 +97,29 @@
     background-color: rgb(255, 255, 255);
     margin: 7px auto 0;
 }
+.about-my {
+    text-align: center;
+}
+.about-my-h2 {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    padding: 119px 0 42px;
+}
+.about-my-p {
+    color: rgb(114, 114, 114);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    max-width: 540px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+
 
 @media screen and (max-width: 1200px) {
     .logo-nav, .first-screen{
@@ -126,8 +149,21 @@
         padding-top: 0;
         padding-bottom: 30px;
     }
+    .about-my-h2 {
+        padding: 60px 0 42px;
+    }
+    .first-screen-bottom{
+        margin-bottom: 60px;
+    }
+    .about-my-p {
+        padding-bottom: 60px;
+    }
 }
 @media screen and (max-width: 768px) {
+   .about-my-p{
+    padding-left: 30px;
+    padding-right: 30px;
+   }  
 }
 @media screen and (max-width: 576px) {
 }
