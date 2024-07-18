@@ -137,7 +137,7 @@
     .nav-min{
         display: block;
     }
-    .logo-nav{
+    .logo-nav, .first-screen-p{
         padding-bottom: 60px;
     }
     .first-screen{
