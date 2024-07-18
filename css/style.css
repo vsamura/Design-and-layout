@@ -1,1 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: rgb(238, 239, 241);;
+}
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+    align-items: center;
+    padding-bottom: 145px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 42px;
+    margin-top: -5px;
+    margin-right: 3px;
+}
+.nav-link{
+    list-style: none;
+}
+.nav-link > a{
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.11em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.first-screen {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.first-screen-img {
+    padding-left: 78px;
+    padding-top: 20px;
+}
+.first-screen-content {
+    max-width: 535px;
+}
+.first-screen-h1 {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    padding-bottom: 48px;
+}
+.first-screen-p {
+    color: rgb(114, 114, 114);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    padding-bottom: 70px;
+}
+.first-screen-bottom{
+    display: block;
+    width: 225px;
+    height: 40px;
+    background-color: rgb(52, 84, 122);
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 146px;
+}
 
