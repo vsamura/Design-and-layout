@@ -116,9 +116,40 @@
     line-height: 19px;
     max-width: 540px;
     margin: 0 auto;
-    padding-bottom: 100px;
+    padding-bottom: 110px;
+}
+.numberis {
+    background-color: rgb(52, 84, 122);
 }
 
+.numberis__flex-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 100px 0;
+}
+.numberis__flex-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.numberis-h4 {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+    padding-bottom: 5px;
+}
+.numberis-p{
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    padding-right: 15px;
+}
 
 
 @media screen and (max-width: 1200px) {
@@ -128,6 +159,11 @@
     }
     .first-screen-img{
         width: 257px;
+    }
+    .numberis__flex-box {
+        justify-content: center;
+        gap: 30px;
+        padding: 60px 30px;
     }
 }
 @media screen and (max-width: 992px) {
