@@ -190,7 +190,7 @@
   display: block;
   width: 80%;
   height: 100%;
-  background-color: rgb(52, 84, 122);;
+  background-color: rgb(52, 84, 122);
 }
 
 .skills-img {
@@ -237,7 +237,19 @@
   border-width: 0;
   outline-width: 0;
 }
-
+.progects {
+  padding-top: 27px;
+  padding-bottom: 60px;
+}
+.progects__flex-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.progects-img {
+  display: block;
+  max-width: 480px;
+}
 
 
 
