@@ -223,7 +223,8 @@
 }
 .box__video-c {
   position: relative;
-  padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+  /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
 }
@@ -263,12 +264,88 @@
 .clients-img {
   width: 255px;
 }
+.form {
+  background-color: rgb(238, 239, 241);
+  text-align: center;
+  padding: 100px 0;
+}
+.form-h2 {
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  padding-bottom: 42px;
+}
+.form-p {
+  color: rgb(114, 114, 114);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  max-width: 540px;
+  margin: 0 auto;
+  padding-bottom: 78px;
+}
+.form-form{
+  display: block;
+  max-width: 540px;
+  margin: 0 auto;
+  color: rgb(95, 93, 93);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.input-name, .input-mail{
+  display: inline-block;
+  color: rgb(95, 93, 93);
+  width: 235px;
+  height: 48px;
+  border: none;
+  padding-top: 2px;
+  padding-left: 20px;
+}
+.input-name{
+  margin-right: 26px;
+  margin-bottom: 20px;
+}
+.form-form textarea{
+  color: rgb(95, 93, 93);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  display: block;
+  width: 520px;
+  height: 160px;
+  padding-top: 15px;
+  padding-left: 20px;
+  border: none;
+}
+.form-btn{
+  display: block;
+  width: 190px;
+  height: 55px;
+  background-color: rgb(52, 84, 122);
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  margin: 50px auto 0;
+  border: none;
+}
 
 
 
 
 @media screen and (max-width: 1200px) {
-    .logo-nav, .first-screen, .skills__flex-box, .video-p, .clients{
+    .logo-nav, .first-screen, .skills__flex-box, .video-p, .clients, .form{
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -284,7 +361,7 @@
       flex-direction: column;
       align-items: center;
     }
-    .skills {
+    .skills, .form {
       padding: 60px 0;
     }
     .skills-h4{
@@ -340,7 +417,14 @@
    .about-my-p{
     padding-left: 30px;
     padding-right: 30px;
-   }  
+   } 
+   .form-form textarea{
+    width: 480px;
+    margin: 0 auto;
+  } 
+  .input-name, .input-mail{
+    width: 215px;
+  }
 }
 @media screen and (max-width: 576px) {
   .skills-img {
@@ -348,5 +432,14 @@
   }
   .skills-progress {
     width: 280px;
+  }
+  .form-form textarea{
+    width: 215px;
+    margin: 0 auto 15px;
+  } 
+  .input-name, .input-mail{
+    display: block;
+    width: 215px;
+    margin: 0 auto 15px;
   }
 }
