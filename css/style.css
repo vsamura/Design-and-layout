@@ -250,11 +250,25 @@
   display: block;
   max-width: 480px;
 }
+.clients {
+  padding-top: 13px;
+  padding-bottom: 100px;
+}
+.clients__flex-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.clients-img {
+  width: 255px;
+}
+
 
 
 
 @media screen and (max-width: 1200px) {
-    .logo-nav, .first-screen, .skills__flex-box, .video-p{
+    .logo-nav, .first-screen, .skills__flex-box, .video-p, .clients{
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -275,6 +289,15 @@
     }
     .skills-h4{
       padding-top: 0;
+    }
+    .clients{
+      padding-bottom: 60px;
+    }
+    .progects-img {
+      max-width: 360px;
+    }
+    .clients-img {
+      width: 180px;
     }
 }
 @media screen and (max-width: 992px) {
@@ -308,6 +331,9 @@
     .video{
       padding-top: 60px;
       padding-bottom: 60px;
+    }
+    .progects-img {
+      max-width: 240px;
     }
 }
 @media screen and (max-width: 768px) {
