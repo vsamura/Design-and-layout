@@ -197,11 +197,52 @@
   max-width: 555px;
 }
 
+.video {
+  text-align: center;
+  background-color: rgb(238, 239, 241);
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.video-h2 {
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  padding-bottom: 43px;
+}
+.video-p {
+  color: rgb(114, 114, 114);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  max-width: 540px;
+  margin: 0 auto;
+  padding-bottom: 67px;
+}
+.box__video-c {
+  position: relative;
+  padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+  height: 0;
+  overflow: hidden;
+}
+.box__video-c iframe {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 1110px;
+  max-height: 600px;
+  border-width: 0;
+  outline-width: 0;
+}
+
 
 
 
 @media screen and (max-width: 1200px) {
-    .logo-nav, .first-screen, .skills__flex-box{
+    .logo-nav, .first-screen, .skills__flex-box, .video-p{
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -251,6 +292,10 @@
     }
     .about-my-p {
         padding-bottom: 60px;
+    }
+    .video{
+      padding-top: 60px;
+      padding-bottom: 60px;
     }
 }
 @media screen and (max-width: 768px) {
