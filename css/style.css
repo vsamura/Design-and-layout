@@ -242,14 +242,13 @@
   padding-top: 27px;
   padding-bottom: 60px;
 }
-.progects__flex-box {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+.progects__grid-box{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 .progects-img {
   display: block;
-  max-width: 480px;
+  width: 100%;
 }
 .clients {
   padding-top: 13px;
@@ -349,8 +348,6 @@
   display: flex;
   justify-content: space-between;
 }
-.footer__flex-content {
-}
 .footer-h {
   color: rgb(255, 255, 255);
   font-family: Roboto;
@@ -442,7 +439,10 @@
       padding-bottom: 60px;
     }
     .progects-img {
-      max-width: 240px;
+      max-width: 480px;
+    }
+    .progects__grid-box{
+      grid-template-columns: repeat(2, 1fr);
     }
 }
 @media screen and (max-width: 768px) {
